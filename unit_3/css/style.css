@@ -20,6 +20,12 @@ h1 {
 	font-size: 20px;
 	font-weight: 200;
 }
+img {
+	width: 300px;
+	height: 100px;
+	border: transparent;
+	border-radius: 1px;
+}
 
 p {
 	color: #C9CFD1;
@@ -34,5 +40,6 @@ ul{
 	font-size: 16px;
 	font-family: Arial;
 	font-weight: normal;
-	text-align: left;
+	text-align: center;
+	list-style-type: none;
 }
