@@ -1,36 +1,37 @@
 body {
-	background-color: #FFFDDE;
+	background-color: #FFF8F5;
 }
 
 h1 {
 	text-transform: uppercase;
 	text-align: center;
-	color: #FFEBED;
+	color: #C9CFD1;
 	font-family: Helvetica;
-	font-size: 20px;
-	font-weight: 600;
+	font-size: 40px;
+	font-weight: 400;
+	margin-top: 20px;
 }
 
 #slogan {
 	text-align: center;
-	color: #FFEBED;
+	color: #C9CFD1;
 	font-style: italic;
 	font-family: Helvetica;
-	font-size: 16px;
-	font-weight: 400;
+	font-size: 20px;
+	font-weight: 200;
 }
 
 p {
-	color: #FFEBED;
-	font-size: 12px;
+	color: #C9CFD1;
+	font-size: 16px;
 	font-family: Arial;
 	font-weight: normal;
 	text-align: justify;
 }
 
 ul{
-	color: #FFEBED;
-	font-size: 12px;
+	color: #C9CFD1;
+	font-size: 16px;
 	font-family: Arial;
 	font-weight: normal;
 	text-align: left;
