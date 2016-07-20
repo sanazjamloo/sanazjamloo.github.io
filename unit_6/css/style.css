@@ -3,6 +3,18 @@
 body {
 	background-color: white;
 }
+
+img { 
+display: block;
+width: 100%;
+max-width: 100%;
+ }
+
+#hero {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
 .wrapper {
 	background-color: #FFE2B8;
 }
@@ -39,13 +51,27 @@ header {
 	background-color: #E582A2
 	border: 1px black solid;
 	padding: 20px;
+	float: left;
+	width: 30%;
 }
 
 #right {
 	background-color: #E55B88;
 	border: 1px black solid;
 	padding: 20px;
+	float: right;
+	width: 62%;
 }
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
 nav {
 	background-color: #E8C66A;
 }
