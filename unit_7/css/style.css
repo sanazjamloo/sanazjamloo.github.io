@@ -12,16 +12,16 @@ max-width: 100%;
 
 #hero {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1600px;
 	margin: 0 auto;
 }
+
 .wrapper {
 	background-color: white;
 }
 
 header {
 	background-color: white;
-	border: 1px black solid;
 	color: #324759;
 	font-size: 40px;
 	font-weight: 400;
@@ -52,6 +52,7 @@ header {
 
 nav {
 	background-color: #FFF;
+	float: left;
 	font-family: Arial, sans-serif;
 	}
 
@@ -61,13 +62,14 @@ ul {
 	margin: 0;
 }
 
-a {
+nav a {
 	background-color: white;
-	color: black;
+	color: #000000;
 	font-size: 16px;
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 	float: left;
+	margin: 1.5em;
 	padding: 30px;
 	width: 200px;
 }
@@ -76,27 +78,14 @@ a:hover {
 	background-color: #7686A6;
 }
 
-}
 section {
 	background-color: #FFF;
-}
-img {
-	border: transparent;
-	border-radius: 8px;
-	height: 400px;
-	width: 600px;
-	margin: auto;
-}
-
-p {
-	color: black;
-	font-size: 16px;
-	font-family: Arial;
-	font-weight: normal;
-	line-height: 2em;
-	text-align: justify;
 }
 
 footer {
 	background-color: #FFF;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	padding: 1em 0;
+	text-align: center;
 }
