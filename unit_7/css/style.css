@@ -52,19 +52,23 @@ header {
 
 nav {
 	background-color: #FFF;
+	font-family: Arial, sans-serif;
 	}
-
-ul {
-	list-style-type: none;
-	margin: 0;
-	overflow: hidden;
-	padding: 0;
-}	
-
-li {
+a {
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
 	float: left;
+	padding: 30px;
 }
 
+a:hover {
+	background-color: #7686A6;
+}
+
+}
 section {
 	background-color: #FFF;
 }
@@ -83,15 +87,6 @@ p {
 	font-weight: normal;
 	line-height: 2em;
 	text-align: justify;
-}
-
-ul{
-	color: black;
-	font-size: 16px;
-	font-family: Arial;
-	font-weight: normal;
-	text-align: left;
-	list-style-type: none;
 }
 
 footer {
