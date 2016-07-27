@@ -2,6 +2,7 @@
 
 body {
 	background-color: white;
+	font-size: 14px;
 }
 
 img { 
@@ -12,7 +13,7 @@ max-width: 100%;
 
 #hero {
 	width: 100%;
-	max-width: 800px;
+	max-width: 80%;
 	margin: 0 auto;
 }
 
@@ -22,14 +23,14 @@ max-width: 100%;
 
 header {
 	color: #666;
-	font-size: 32px;
+	font-size: 2.5em;
 	font-weight: 300;
 	opacity: 0.5;
-	padding: 15px;
+	padding: 1.5em;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Lato sans-serif', sans-serif;
-	margin-top: 30px;
+	margin-top: 2.5em;
 }
 
 #slogan {
@@ -37,7 +38,7 @@ header {
 	color: #7686A6;
 	font-style: italic;
 	font-family: Helvetica;
-	font-size: 14px;
+	font-size: 1em;
 	font-weight: 200;
 }
 
@@ -53,7 +54,7 @@ header {
 nav {
 	background-color: white;
 	font-family: 'Lato', sans-serif;
-	width: 563px;
+	width: 50%;
 	margin: 2em auto 0;
 	}
 
@@ -67,11 +68,11 @@ nav a {
 	background-color: white;
 	color: #666;
 	display: block;
-	font-size: 14px;
+	font-size: 1em;
 	text-decoration: none;
 	float: left;
 	margin: 1.5em 0;
-	padding: 20px;
+	padding: 2em;
 }
 
 a:hover {
@@ -85,7 +86,7 @@ section {
 footer {
 	color: #666;
 	font-family: 'Lato', sans-serif;
-	font-size: 11px;
+	font-size: .8em;
 	padding: 1em;
 	text-align: center;
 }
