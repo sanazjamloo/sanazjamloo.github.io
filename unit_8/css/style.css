@@ -2,7 +2,7 @@
 
 body {
 	background-color: white;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 img { 
@@ -13,7 +13,7 @@ max-width: 100%;
 
 #hero {
 	width: 100%;
-	max-width: 80%;
+	max-width: 50%;
 	margin: 0 auto;
 }
 
@@ -23,14 +23,14 @@ max-width: 100%;
 
 header {
 	color: #666;
-	font-size: 2.5em;
+	font-size: 3em;
 	font-weight: 300;
 	opacity: 0.5;
 	padding: 1.5em;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Lato sans-serif', sans-serif;
-	margin-top: 2.5em;
+	margin-top: .5em;
 }
 
 #slogan {
@@ -40,6 +40,7 @@ header {
 	font-family: Helvetica;
 	font-size: 1em;
 	font-weight: 200;
+	margin: 0 auto;
 }
 
 .clearfix:after {
@@ -54,7 +55,8 @@ header {
 nav {
 	background-color: white;
 	font-family: 'Lato', sans-serif;
-	width: 50%;
+	font-size: 1em;
+	width: 34%;
 	margin: 2em auto 0;
 	}
 
