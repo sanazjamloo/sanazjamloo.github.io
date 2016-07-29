@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
 
 body {
 	background-color: white;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 img { 
@@ -12,8 +12,8 @@ max-width: 100%;
  }
 
 #hero {
-	width: 100%;
-	max-width: 50%;
+	width: 58%;
+	max-width: 100%;
 	margin: 0 auto;
 }
 
@@ -21,16 +21,16 @@ max-width: 100%;
 	background-color: white;
 }
 
-header {
+h1 {
 	color: #666;
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight: 300;
 	opacity: 0.5;
-	padding: 1.5em;
+	padding: 1em;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Lato sans-serif', sans-serif;
-	margin-top: .5em;
+	font-family: 'Lato', sans-serif;
+	margin-top: 0;
 }
 
 #slogan {
@@ -56,8 +56,8 @@ nav {
 	background-color: white;
 	font-family: 'Lato', sans-serif;
 	font-size: 1em;
-	width: 34%;
-	margin: 2em auto 0;
+	width: 700px;
+	margin: 0 auto;
 	}
 
 ul {
@@ -91,4 +91,25 @@ footer {
 	font-size: .8em;
 	padding: 1em;
 	text-align: center;
+}
+
+@media screen and (max-width:740px) {
+	nav {
+		width: 282px;	
+	}
+	nav a {
+		margin: .5em 0;
+		padding: 1em;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#hero {
+		width: 58%;	
+	}
+}
+@media screen and (max-width: 235px) {
+	#hero {
+		width: 80%;
+	}
 }
