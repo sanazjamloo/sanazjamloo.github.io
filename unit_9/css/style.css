@@ -3,39 +3,42 @@
 body {
 	background-color: white;
 	font-size: 16px;
+	
 }
 
 img { 
 display: block;
 width: 70%;
-max-width: 100%;
+max-width: 600px;
+margin: 10px;
  }
 
 #hero {
 	width: 58%;
 	max-width: 100%;
-	margin: 0 auto;
+	margin: auto;
 }
 
 #about {
 	color: #777;
-	display: block;
 	float: right;
 	font-family: 'Lato', sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
 	text-transform: none;
-	text-align: justify-all;
+	text-align: justify;
 	font-weight: 400;
 	padding: 50px 0 auto;
 	opacity: 1;
-	position: relative;
 	font-style: normal;
 	width: 50%;
 }
 
 .wrapper {
 	background-color: white;
+	position: relative;
+	padding-bottom:100px;
+	margin: auto;
 }
 
 h1 {
@@ -48,6 +51,11 @@ h1 {
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
 	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 a:hover {
@@ -107,15 +115,11 @@ section {
 }
 
 
-.clearfix::after {
-  content: "";
-  display: inline;
-  clear: both;
-}
-
 footer {
 	color: #666;
-	float: right;
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
 	font-family: 'Lato', sans-serif;
 	font-size: .8em;
 	padding: 1em;
